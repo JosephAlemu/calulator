@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.simple_calculator.MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtvalue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/txtbox_height"
+        android:layout_above="@+id/gridLayout"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:text="" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:columnCount="7"
+        android:orientation="horizontal"
+        android:rowCount="5"
+        android:useDefaultMargins="false">
+        <Button
+            android:id="@+id/secondbtn"
+            android:text="2nd" />
+        <Button
+            android:id="@+id/radbtn"
+            android:text="Rad" />
+        <Button
+            android:id="@+id/checkbtn"
+            android:text="✓" />
+        <Button
+            android:id="@+id/clearbtn"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/backbtn"
+            android:text="BS" />
+
+        <Button
+            android:id="@+id/percentbtn"
+            android:text="%" />
+
+
+        <Button
+            android:id="@+id/dividebtn"
+            android:text="/" />
+
+        <Button
+            android:id="@+id/sinbtn"
+            android:text="sin" />
+
+        <Button
+            android:id="@+id/cosbtn"
+            android:text="cos" />
+        <Button
+            android:id="@+id/tanbtn"
+            android:text="tan" />
+        <Button
+            android:id="@+id/sevenbtn"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/eightbtn"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/ninebtn"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/timesbtn"
+            android:text="x" />
+
+        <Button
+            android:id="@+id/lnbtn"
+            android:text="ln" />
+        <Button
+            android:id="@+id/logbtn"
+            android:text="log" />
+        <Button
+            android:id="@+id/onextn"
+            android:text="1/x" />
+
+        <Button
+            android:id="@+id/fourbtn"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/fivebtn"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/sixbtn"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/minusbtn"
+            android:text="-" />
+        <Button
+            android:id="@+id/exbtn"
+            android:text="e^x" />
+        <Button
+            android:id="@+id/twoxbtn"
+            android:text="x^2" />
+        <Button
+            android:id="@+id/xybtn"
+            android:text="x^y" />
+        <Button
+            android:id="@+id/onebtn"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/twobtn"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/threebtn"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/addbtn"
+            android:text="+" />
+        <Button
+            android:id="@+id/absbtn"
+            android:text="|x|" />
+        <Button
+            android:id="@+id/pibtn"
+            android:text="π" />
+        <Button
+            android:id="@+id/expbtn"
+            android:text="e" />
+        <Button
+            android:id="@+id/dotbtn"
+            android:text="." />
+
+        <Button
+            android:id="@+id/zerobtn"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/plsminbtn"
+            android:text="+/-" />
+
+        <Button
+            android:id="@+id/equalbtn"
+
+            android:text="=" />
+    </GridLayout>
+
+
+</RelativeLayout>
